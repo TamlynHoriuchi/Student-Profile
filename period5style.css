@@ -1,0 +1,83 @@
+.grid-container{
+  display:grid;
+  grid-template-areas:
+    "L L a a a a"
+    "L L b c d e"
+    "L L f f g g"
+    "L L h h i i"
+    "L L j j k k";
+  grid-gap:10px;
+}
+
+.a{
+  grid-area: a;
+  border:solid 2px black;
+  border-radius:25px;
+  padding: 15px;
+}
+.b{
+  grid-area: b;
+  border:solid 2px black;
+  border-radius:25px;
+  padding: 15px;
+}
+.c{
+  grid-area: c;
+  border:solid 2px black;
+  border-radius:25px;
+  padding: 15px;
+}
+.d{
+  grid-area: d;
+  border:solid 2px black;
+  border-radius:25px;
+  padding: 15px;
+}
+.e{
+  grid-area: e;
+  border:solid 2px black;
+  border-radius:25px;
+  padding: 15px;
+}
+.f{
+  grid-area:f;
+  border:solid 2px black;
+  border-radius:25px;
+  padding: 15px;
+}
+.g{
+  grid-area:g;
+  border:solid 2px black;
+  border-radius:25px;
+  padding: 15px;
+}
+.h{
+  grid-area:h;
+  border:solid 2px black;
+  border-radius:25px;
+  padding: 15px;
+}
+.i{
+  grid-area:i;
+  border:solid 2px black;
+  border-radius:25px;
+  padding: 15px;
+}
+.j{
+  grid-area:j;
+  border:solid 2px black;
+  border-radius:25px;
+  padding: 15px;
+}
+.k{
+  grid-area:k;
+  border:solid 2px black;
+  border-radius:25px;
+  padding: 15px;
+}
+.L{
+  grid-area:L;
+  border:solid 2px black;
+  border-radius:25px;
+  padding: 15px;
+}
